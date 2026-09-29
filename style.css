@@ -97,6 +97,9 @@ body.l-en .bn{display:none}body.l-bn .en{display:none}body.l-bn .bn{color:var(--
 #ex4 .btn2{transition:.2s}
 #ex4 .relaybox{fill:var(--card);stroke:var(--tx);stroke-width:3;transition:.4s}
 #ex4.on .relaybox{fill:var(--ac);opacity:.85}
+#ex4 .ring{stroke:var(--cur);stroke-width:3;opacity:0}
+#ex4.on .ringS{opacity:1;animation:bl2 .8s steps(2) 2}
+#ex4.stop .ringT{opacity:1;animation:bl2 .8s steps(2) 2}
 #ex4 rect.water{x:384px;width:132px;y:210px;height:0px;transition:y .6s ease,height .6s ease;fill:var(--ac);opacity:.4}
 #ex4.lvl1 rect.water{y:130px;height:80px}
 #ex4.lvl2 rect.water{y:55px;height:155px}
